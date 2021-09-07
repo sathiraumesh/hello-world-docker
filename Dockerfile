@@ -8,4 +8,3 @@ COPY ss .
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 ENTRYPOINT ["/entrypoint.sh"]
 
-FROM node:14.5.0-alpine
