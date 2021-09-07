@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM node:14.5.0-alpine
+FROM node:14.17
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
