@@ -1,4 +1,4 @@
 # Container image that runs your code
 FROM node:14.5.0-alpine
 
-COPY COPY ./test-app/. ./
+COPY ./test-app/. ./
